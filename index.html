@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>PUZZLE</title>
+</head>
+<body>
+    <header>
+        <h3 class="h3">PUZZLE</h3>
+    </header>
+    <main>
+        <section >
+            <div class="section">
+                <table class="puz-container">
+                    <tr>
+                        <td><img class="img" id="img0" src="img/1.jpg" alt="" onclick="selecionar(0);"></td>
+                        <td><img  class="img" id="img1" src="img/2.jpg" alt="" onclick="selecionar(1);"></td>
+                        <td><img  class="img" id="img2" src="img/3.jpg" alt="" onclick="selecionar(2);"></td>
+                    </tr>
+                    <tr>
+                        <td><img  class="img" id="img3" src="img/4.jpg" alt="" onclick="selecionar(3);"></td>
+                        <td><img  class="img" id="img4" src="img/5.jpg" alt="" onclick="selecionar(4);"></td>
+                        <td><img  class="img" id="img5" src="img/6.jpg" alt="" onclick="selecionar(5);"></td>
+                    </tr>
+                    <tr>
+                        <td><img  class="img" id="img6" src="img/7.jpg" alt="" onclick="selecionar(6);"></td>
+                        <td><img  class="img" id="img7" src="img/8.jpg" alt="" onclick="selecionar(7);"></td>
+                        <td><img  class="img" id="img8" src="img/9.jpg" alt="" onclick="selecionar(8);"></td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <button id="btnValidar" class="boton" value="comprobar">Validar</button>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>

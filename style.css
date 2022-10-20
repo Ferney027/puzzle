@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.h3{
+    text-align: center;
+}
+.puz-container{    
+display: flex;
+align-content: center;
+
+}
+.boton{
+   width: 120px;
+   background-color:transparent;
+   border:2px solid black;
+   border-radius:5px;
+
+}
+.img{
+    width:15rem;
+}
